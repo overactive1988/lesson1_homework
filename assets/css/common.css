@@ -220,4 +220,8 @@ h1{
 .container__wrap{
     max-width:640px
 }
+
+.work-list__inner{
+    width:100%
+}
   }
