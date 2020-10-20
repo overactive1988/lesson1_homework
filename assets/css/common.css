@@ -64,7 +64,7 @@ h1{
   padding-bottom:8.2rem
 }
 
-.personal--profile p + p{
+.personal--profile li + li{
     padding-top:2.4rem;
   }
 
@@ -86,7 +86,6 @@ h1{
   display:inline-block;
   margin-top:1.8rem;
   padding-left:2.4rem;
-  text-align:center;
   border-left:1px solid #96a9c4
 }
 
@@ -110,12 +109,13 @@ h1{
 }
 
 .work-list{
+  margin-left:2.4rem;
   padding-left:2.4rem;
   border-left:1px solid #96a9c4
 }
 
 .work-list li{
-    padding:2.4rem
+    padding:1.2rem
   }
 
 .work-list li:last-child{
@@ -126,7 +126,9 @@ h1{
   width:60%
 }
 
-.work-list__inner p{
+.work-list__inner span{
+    display:block;
+    font-weight:500;
     font-size:2rem;
   }
 
@@ -144,7 +146,6 @@ h1{
 }
 
 .contact__list li{
-    width:100%;
     margin:0 auto;
     padding-bottom:2rem;
     color:#fff;
@@ -156,6 +157,8 @@ h1{
 
 .contact__list li a{
       color:#fff;
+      line-height:1.5;
+      word-break:break-all;
     }
 
 .contact__list li:last-child{
